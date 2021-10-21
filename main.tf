@@ -4,7 +4,7 @@ provider "aws" {
     tags = {
       Name        = "${var.environment}-default-${var.region}"
       Environment = var.environment
-      Owner       = "TFProviders_demo2"
+      Owner       = "TFProviders_demo2_123"
       Project     = "Test"
       importid    = "FN20210001"
     }
